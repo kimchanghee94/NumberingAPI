@@ -1,0 +1,5 @@
+package common.logging;
+
+public class LoggerForNumbering {
+
+}

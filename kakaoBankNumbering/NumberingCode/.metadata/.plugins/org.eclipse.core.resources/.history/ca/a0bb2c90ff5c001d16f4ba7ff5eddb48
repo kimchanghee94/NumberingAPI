@@ -1,0 +1,6 @@
+import org.apache.logging.log4j.*;
+
+public class Version {
+	public static void main() {
+	}
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="Logger output will be"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="Logger output will be"/>
+			<item value="DEFAULT_LOGGER_PATTERN"/>
+			<item value="_layout"/>
+			<item value="&#x09;  public static void initLogger() {"/>
+			<item value="findClassName"/>
+			<item value="LEVEL__INFO"/>
+			<item value="DEFAULT_LOGGER_LEVEL"/>
+			<item value="&#x09;public"/>
+			<item value="DEFAULT_LOGGER_DATEPATTERN"/>
+			<item value="src"/>
+			<item value="lib.dir"/>
+			<item value="compile.debug"/>
+			<item value="wsgen"/>
+			<item value="req"/>
+			<item value="UUID"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="646"/>
+		<item key="DIALOG_Y_ORIGIN" value="216"/>
+		<item key="DIALOG_WIDTH" value="322"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+</section>

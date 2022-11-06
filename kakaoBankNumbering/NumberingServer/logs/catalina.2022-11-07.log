@@ -1,0 +1,1130 @@
+07-Nov-2022 01:11:59.302 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:11:59.342 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:11:59.343 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:11:59.343 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:11:59.343 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:11:59.344 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:11:59.344 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:11:59.344 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:11:59.345 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:11:59.345 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:11:59.345 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:11:59.346 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:11:59.347 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 01:11:59.347 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:11:59.347 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:11:59.347 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:11:59.348 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:11:59.352 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:11:59.352 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:11:59.354 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 01:11:59.354 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 01:11:59.355 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 01:11:59.360 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:11:59.360 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:11:59.361 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:11:59.379 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:11:59.861 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:11:59.888 정보 [main] org.apache.catalina.startup.Catalina.load [886] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:11:59.932 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:11:59.933 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:12:00.558 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [315] 밀리초가 소요됐습니다.
+07-Nov-2022 01:12:00.604 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:12:00.612 정보 [main] org.apache.catalina.startup.ExpandWar.expand 압축이 풀려진 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine]의 최종 변경 시간이, 연관된 WAR의 최종 변경 시간과 부합하지 않습니다. 해당 디렉토리는 삭제될 것입니다.
+07-Nov-2022 01:12:00.768 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [165] 밀리초에 완료되었습니다.
+07-Nov-2022 01:12:00.771 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:12:00.816 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [45] 밀리초에 완료되었습니다.
+07-Nov-2022 01:12:00.817 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:12:01.469 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [652] 밀리초에 완료되었습니다.
+07-Nov-2022 01:12:01.473 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:12:01.536 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [63] 밀리초에 완료되었습니다.
+07-Nov-2022 01:12:01.538 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:12:01.598 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [59] 밀리초에 완료되었습니다.
+07-Nov-2022 01:12:01.607 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:12:01.641 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1751] 밀리초 내에 시작되었습니다.
+07-Nov-2022 01:14:47.827 심각 [main] org.apache.catalina.startup.Catalina.stopServer [localhost:8005] (base 포트 [8005] 그리고 offset [0])와(과) 연결할 수 없었습니다. Tomcat이 실행 중이지 않을 수 있습니다.
+07-Nov-2022 01:14:49.099 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:14:49.131 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:14:49.131 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:14:49.131 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:14:49.132 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:14:49.132 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:14:49.132 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:14:49.133 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:14:49.133 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:14:49.133 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:14:49.133 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:14:49.134 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:14:49.134 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 01:14:49.135 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:14:49.135 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:14:49.135 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:14:49.136 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:14:49.141 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:14:49.142 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:14:49.143 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 01:14:49.143 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 01:14:49.144 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 01:14:49.148 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:14:49.148 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:14:49.149 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:14:49.166 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:14:49.649 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:14:49.736 정보 [main] org.apache.catalina.startup.Catalina.load [882] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:14:49.801 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:14:49.803 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:14:50.476 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [306] 밀리초가 소요됐습니다.
+07-Nov-2022 01:14:50.502 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:14:50.539 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [37] 밀리초에 완료되었습니다.
+07-Nov-2022 01:14:50.540 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:14:50.568 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [28] 밀리초에 완료되었습니다.
+07-Nov-2022 01:14:50.568 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:14:50.942 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [374] 밀리초에 완료되었습니다.
+07-Nov-2022 01:14:50.944 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:14:50.988 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [45] 밀리초에 완료되었습니다.
+07-Nov-2022 01:14:50.989 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:14:51.028 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [39] 밀리초에 완료되었습니다.
+07-Nov-2022 01:14:51.035 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:14:51.059 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1312] 밀리초 내에 시작되었습니다.
+07-Nov-2022 01:15:16.049 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+07-Nov-2022 01:15:16.050 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8282"]을(를) 일시 정지 중
+07-Nov-2022 01:15:16.316 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+07-Nov-2022 01:15:16.344 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
+07-Nov-2022 01:15:16.353 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
+07-Nov-2022 01:15:18.052 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:15:18.080 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:15:18.081 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:15:18.081 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:15:18.081 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:15:18.081 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:15:18.081 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:15:18.082 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:15:18.082 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:15:18.082 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:15:18.082 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:15:18.083 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:15:18.083 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 01:15:18.084 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:15:18.084 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:15:18.084 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:15:18.084 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:15:18.089 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:15:18.092 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:15:18.093 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 01:15:18.095 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 01:15:18.096 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 01:15:18.101 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:15:18.102 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:15:18.103 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:15:18.119 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:15:18.582 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:15:18.619 정보 [main] org.apache.catalina.startup.Catalina.load [804] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:15:18.669 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:15:18.679 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:15:19.320 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [332] 밀리초가 소요됐습니다.
+07-Nov-2022 01:15:19.353 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:15:19.405 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [52] 밀리초에 완료되었습니다.
+07-Nov-2022 01:15:19.407 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:15:19.448 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [42] 밀리초에 완료되었습니다.
+07-Nov-2022 01:15:19.449 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:15:19.999 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [549] 밀리초에 완료되었습니다.
+07-Nov-2022 01:15:19.999 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:15:20.038 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [39] 밀리초에 완료되었습니다.
+07-Nov-2022 01:15:20.039 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:15:20.087 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [48] 밀리초에 완료되었습니다.
+07-Nov-2022 01:15:20.095 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:15:20.134 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1514] 밀리초 내에 시작되었습니다.
+07-Nov-2022 01:15:58.435 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+07-Nov-2022 01:15:58.436 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8282"]을(를) 일시 정지 중
+07-Nov-2022 01:15:58.706 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+07-Nov-2022 01:15:58.733 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
+07-Nov-2022 01:15:58.747 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
+07-Nov-2022 01:16:00.005 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:16:00.046 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:16:00.046 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:16:00.047 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:16:00.047 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:16:00.047 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:16:00.048 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:16:00.049 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:16:00.049 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:16:00.049 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:16:00.050 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:16:00.050 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:16:00.053 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 01:16:00.053 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:16:00.054 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:16:00.054 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:16:00.055 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:16:00.057 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:16:00.058 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:16:00.059 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 01:16:00.061 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 01:16:00.062 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 01:16:00.071 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:16:00.073 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:16:00.074 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:16:00.094 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:16:00.550 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:16:00.602 정보 [main] org.apache.catalina.startup.Catalina.load [849] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:16:00.642 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:16:00.643 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:16:01.315 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [301] 밀리초가 소요됐습니다.
+07-Nov-2022 01:16:01.352 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:16:01.412 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [60] 밀리초에 완료되었습니다.
+07-Nov-2022 01:16:01.414 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:16:01.450 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [36] 밀리초에 완료되었습니다.
+07-Nov-2022 01:16:01.451 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:16:02.050 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [599] 밀리초에 완료되었습니다.
+07-Nov-2022 01:16:02.052 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:16:02.099 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+07-Nov-2022 01:16:02.101 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:16:02.144 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [45] 밀리초에 완료되었습니다.
+07-Nov-2022 01:16:02.153 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:16:02.189 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1582] 밀리초 내에 시작되었습니다.
+07-Nov-2022 01:16:24.093 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+07-Nov-2022 01:16:24.094 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8282"]을(를) 일시 정지 중
+07-Nov-2022 01:16:24.355 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+07-Nov-2022 01:16:24.383 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
+07-Nov-2022 01:16:24.401 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
+07-Nov-2022 01:16:26.085 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:16:26.116 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:16:26.116 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:16:26.116 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:16:26.117 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:16:26.117 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:16:26.117 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:16:26.121 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:16:26.122 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:16:26.122 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:16:26.122 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:16:26.122 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:16:26.123 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 01:16:26.123 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:16:26.124 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:16:26.124 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:16:26.125 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:16:26.128 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:16:26.129 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:16:26.130 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 01:16:26.131 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 01:16:26.132 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 01:16:26.137 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:16:26.137 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:16:26.138 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:16:26.159 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:16:26.587 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:16:26.616 정보 [main] org.apache.catalina.startup.Catalina.load [788] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:16:26.658 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:16:26.659 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:16:27.255 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [282] 밀리초가 소요됐습니다.
+07-Nov-2022 01:16:27.288 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:16:27.336 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [48] 밀리초에 완료되었습니다.
+07-Nov-2022 01:16:27.338 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:16:27.371 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [32] 밀리초에 완료되었습니다.
+07-Nov-2022 01:16:27.371 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:16:27.783 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [412] 밀리초에 완료되었습니다.
+07-Nov-2022 01:16:27.784 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:16:27.815 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [31] 밀리초에 완료되었습니다.
+07-Nov-2022 01:16:27.815 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:16:27.852 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [37] 밀리초에 완료되었습니다.
+07-Nov-2022 01:16:27.858 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:16:27.886 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1268] 밀리초 내에 시작되었습니다.
+07-Nov-2022 01:16:55.479 심각 [main] org.apache.catalina.startup.Catalina.stopServer [localhost:8005] (base 포트 [8005] 그리고 offset [0])와(과) 연결할 수 없었습니다. Tomcat이 실행 중이지 않을 수 있습니다.
+07-Nov-2022 01:16:57.046 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:16:57.077 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:16:57.077 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:16:57.078 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:16:57.078 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:16:57.078 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:16:57.079 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:16:57.079 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:16:57.080 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:16:57.080 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:16:57.081 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:16:57.081 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:16:57.082 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 01:16:57.082 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:16:57.083 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:16:57.083 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:16:57.084 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:16:57.085 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:16:57.085 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:16:57.086 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 01:16:57.087 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 01:16:57.088 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 01:16:57.094 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:16:57.094 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:16:57.095 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:16:57.111 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:16:57.518 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:16:57.551 정보 [main] org.apache.catalina.startup.Catalina.load [747] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:16:57.604 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:16:57.607 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:16:58.164 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [277] 밀리초가 소요됐습니다.
+07-Nov-2022 01:16:58.191 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:16:58.232 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [41] 밀리초에 완료되었습니다.
+07-Nov-2022 01:16:58.234 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:16:58.264 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [31] 밀리초에 완료되었습니다.
+07-Nov-2022 01:16:58.265 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:16:58.759 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [494] 밀리초에 완료되었습니다.
+07-Nov-2022 01:16:58.759 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:16:58.796 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [37] 밀리초에 완료되었습니다.
+07-Nov-2022 01:16:58.797 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:16:58.838 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [41] 밀리초에 완료되었습니다.
+07-Nov-2022 01:16:58.846 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:16:58.872 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1319] 밀리초 내에 시작되었습니다.
+07-Nov-2022 01:30:20.719 심각 [main] org.apache.catalina.startup.Catalina.stopServer [localhost:8005] (base 포트 [8005] 그리고 offset [0])와(과) 연결할 수 없었습니다. Tomcat이 실행 중이지 않을 수 있습니다.
+07-Nov-2022 01:30:20.724 심각 [main] org.apache.catalina.startup.Catalina.stopServer Catalina를 중지시키는 중 오류 발생
+	java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:589)
+		at java.net.Socket.connect(Socket.java:538)
+		at java.net.Socket.<init>(Socket.java:434)
+		at java.net.Socket.<init>(Socket.java:211)
+		at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:667)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:391)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:481)
+07-Nov-2022 01:30:22.269 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:30:22.305 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:30:22.306 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:30:22.306 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:30:22.306 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:30:22.306 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:30:22.307 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:30:22.307 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:30:22.307 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:30:22.308 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:30:22.308 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:30:22.308 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:30:22.309 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 01:30:22.309 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:30:22.310 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:30:22.312 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:30:22.314 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:30:22.315 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:30:22.316 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:30:22.317 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 01:30:22.317 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 01:30:22.318 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 01:30:22.322 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:30:22.322 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:30:22.324 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:30:22.333 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:30:22.786 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:30:22.818 정보 [main] org.apache.catalina.startup.Catalina.load [864] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:30:22.862 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:30:22.863 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:30:23.461 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [281] 밀리초가 소요됐습니다.
+07-Nov-2022 01:30:23.494 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:30:23.620 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [125] 밀리초에 완료되었습니다.
+07-Nov-2022 01:30:23.621 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:30:23.653 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [32] 밀리초에 완료되었습니다.
+07-Nov-2022 01:30:23.654 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:30:24.123 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [469] 밀리초에 완료되었습니다.
+07-Nov-2022 01:30:24.126 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:30:24.192 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [56] 밀리초에 완료되었습니다.
+07-Nov-2022 01:30:24.196 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:30:24.250 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [53] 밀리초에 완료되었습니다.
+07-Nov-2022 01:30:24.261 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:30:24.305 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1487] 밀리초 내에 시작되었습니다.
+07-Nov-2022 01:31:32.883 심각 [main] org.apache.catalina.startup.Catalina.stopServer [localhost:8005] (base 포트 [8005] 그리고 offset [0])와(과) 연결할 수 없었습니다. Tomcat이 실행 중이지 않을 수 있습니다.
+07-Nov-2022 01:31:34.097 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:31:34.125 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:31:34.126 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:31:34.126 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:31:34.127 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:31:34.127 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:31:34.127 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:31:34.128 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:31:34.128 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:31:34.129 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:31:34.129 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:31:34.130 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:31:34.131 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 01:31:34.133 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:31:34.137 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:31:34.139 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:31:34.140 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:31:34.141 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:31:34.143 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:31:34.144 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 01:31:34.145 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 01:31:34.146 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 01:31:34.150 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:31:34.151 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:31:34.152 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:31:34.171 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:31:34.615 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:31:34.645 정보 [main] org.apache.catalina.startup.Catalina.load [836] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:31:34.688 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:31:34.689 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:31:35.432 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [405] 밀리초가 소요됐습니다.
+07-Nov-2022 01:31:35.480 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:31:35.492 정보 [main] org.apache.catalina.startup.ExpandWar.expand 압축이 풀려진 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine]의 최종 변경 시간이, 연관된 WAR의 최종 변경 시간과 부합하지 않습니다. 해당 디렉토리는 삭제될 것입니다.
+07-Nov-2022 01:31:35.630 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [150] 밀리초에 완료되었습니다.
+07-Nov-2022 01:31:35.632 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:31:35.671 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [39] 밀리초에 완료되었습니다.
+07-Nov-2022 01:31:35.674 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:31:36.161 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [487] 밀리초에 완료되었습니다.
+07-Nov-2022 01:31:36.162 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:31:36.198 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [35] 밀리초에 완료되었습니다.
+07-Nov-2022 01:31:36.198 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:31:36.267 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [67] 밀리초에 완료되었습니다.
+07-Nov-2022 01:31:36.281 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:31:36.324 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1677] 밀리초 내에 시작되었습니다.
+07-Nov-2022 01:33:56.531 정보 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/numberingEngine]의 배치를 제거합니다.
+07-Nov-2022 01:33:56.562 정보 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:33:57.137 정보 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [575] 밀리초에 완료되었습니다.
+07-Nov-2022 01:33:57.700 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+07-Nov-2022 01:33:57.701 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8282"]을(를) 일시 정지 중
+07-Nov-2022 01:33:57.965 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+07-Nov-2022 01:33:57.985 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
+07-Nov-2022 01:33:57.996 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
+07-Nov-2022 01:33:59.197 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:33:59.240 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:33:59.241 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:33:59.241 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:33:59.241 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:33:59.242 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:33:59.242 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:33:59.242 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:33:59.243 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:33:59.243 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:33:59.244 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:33:59.244 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:33:59.245 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 01:33:59.246 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:33:59.246 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:33:59.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:33:59.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:33:59.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:33:59.250 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:33:59.252 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 01:33:59.253 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 01:33:59.254 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 01:33:59.258 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:33:59.259 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:33:59.260 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:33:59.281 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:33:59.811 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:33:59.870 정보 [main] org.apache.catalina.startup.Catalina.load [971] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:33:59.930 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:33:59.932 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:34:00.638 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [354] 밀리초가 소요됐습니다.
+07-Nov-2022 01:34:00.714 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:34:00.765 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [50] 밀리초에 완료되었습니다.
+07-Nov-2022 01:34:00.766 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:34:00.800 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [34] 밀리초에 완료되었습니다.
+07-Nov-2022 01:34:00.801 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:34:01.352 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [551] 밀리초에 완료되었습니다.
+07-Nov-2022 01:34:01.353 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:34:01.404 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [50] 밀리초에 완료되었습니다.
+07-Nov-2022 01:34:01.407 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:34:01.456 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [49] 밀리초에 완료되었습니다.
+07-Nov-2022 01:34:01.463 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:34:01.495 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1623] 밀리초 내에 시작되었습니다.
+07-Nov-2022 01:35:53.822 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+07-Nov-2022 01:35:53.823 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8282"]을(를) 일시 정지 중
+07-Nov-2022 01:35:54.139 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+07-Nov-2022 01:35:54.194 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
+07-Nov-2022 01:35:54.202 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
+07-Nov-2022 01:35:55.461 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:35:55.491 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:35:55.491 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:35:55.491 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:35:55.491 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:35:55.492 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:35:55.492 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:35:55.492 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:35:55.492 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:35:55.493 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:35:55.494 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:35:55.494 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:35:55.495 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=E:\kakaoBankNumbering\NumberingServer\conf\logging.properties
+07-Nov-2022 01:35:55.495 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:35:55.496 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:35:55.500 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:35:55.500 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:35:55.501 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:35:55.502 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:35:55.503 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:35:55.503 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:35:55.504 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:35:55.505 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=E:\kakaoBankNumbering\NumberingServer\temp
+07-Nov-2022 01:35:55.510 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:35:55.511 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:35:55.513 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:35:55.529 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:35:55.940 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:35:55.969 정보 [main] org.apache.catalina.startup.Catalina.load [740] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:35:56.014 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:35:56.015 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:35:56.738 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [347] 밀리초가 소요됐습니다.
+07-Nov-2022 01:35:56.781 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:35:56.875 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [93] 밀리초에 완료되었습니다.
+07-Nov-2022 01:35:56.876 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:35:56.920 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [44] 밀리초에 완료되었습니다.
+07-Nov-2022 01:35:56.921 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:35:57.450 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [529] 밀리초에 완료되었습니다.
+07-Nov-2022 01:35:57.452 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:35:57.501 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [50] 밀리초에 완료되었습니다.
+07-Nov-2022 01:35:57.505 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:35:57.567 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [62] 밀리초에 완료되었습니다.
+07-Nov-2022 01:35:57.576 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:35:57.608 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1637] 밀리초 내에 시작되었습니다.
+07-Nov-2022 01:38:01.932 심각 [main] org.apache.catalina.startup.Catalina.stopServer [localhost:8005] (base 포트 [8005] 그리고 offset [0])와(과) 연결할 수 없었습니다. Tomcat이 실행 중이지 않을 수 있습니다.
+07-Nov-2022 01:38:04.103 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:38:04.141 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:38:04.142 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:38:04.143 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:38:04.143 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:38:04.143 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:38:04.143 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:38:04.144 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:38:04.144 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:38:04.144 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:38:04.145 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:38:04.145 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:38:04.146 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 01:38:04.146 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:38:04.146 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:38:04.146 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:38:04.147 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:38:04.148 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:38:04.149 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:38:04.150 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 01:38:04.151 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 01:38:04.152 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 01:38:04.158 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:38:04.160 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:38:04.161 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:38:04.179 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:38:04.560 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:38:04.589 정보 [main] org.apache.catalina.startup.Catalina.load [746] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:38:04.641 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:38:04.643 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:38:05.288 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [315] 밀리초가 소요됐습니다.
+07-Nov-2022 01:38:05.325 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:38:05.334 정보 [main] org.apache.catalina.startup.ExpandWar.expand 압축이 풀려진 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine]의 최종 변경 시간이, 연관된 WAR의 최종 변경 시간과 부합하지 않습니다. 해당 디렉토리는 삭제될 것입니다.
+07-Nov-2022 01:38:05.447 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [122] 밀리초에 완료되었습니다.
+07-Nov-2022 01:38:05.448 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:38:05.495 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+07-Nov-2022 01:38:05.496 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:38:06.123 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [627] 밀리초에 완료되었습니다.
+07-Nov-2022 01:38:06.124 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:38:06.175 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [51] 밀리초에 완료되었습니다.
+07-Nov-2022 01:38:06.176 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:38:06.221 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [46] 밀리초에 완료되었습니다.
+07-Nov-2022 01:38:06.232 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:38:06.259 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1668] 밀리초 내에 시작되었습니다.
+07-Nov-2022 01:38:29.899 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+07-Nov-2022 01:38:29.900 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8282"]을(를) 일시 정지 중
+07-Nov-2022 01:38:30.193 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+07-Nov-2022 01:38:30.223 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
+07-Nov-2022 01:38:30.239 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
+07-Nov-2022 01:38:32.884 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:38:32.918 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:38:32.918 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:38:32.919 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:38:32.919 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:38:32.919 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:38:32.919 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:38:32.920 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:38:32.921 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:38:32.922 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:38:32.922 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:38:32.922 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:38:32.923 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=E:\kakaoBankNumbering\NumberingServer\conf\logging.properties
+07-Nov-2022 01:38:32.923 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:38:32.924 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:38:32.929 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:38:32.929 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:38:32.930 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:38:32.931 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:38:32.932 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:38:32.933 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:38:32.934 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:38:32.935 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=E:\kakaoBankNumbering\NumberingServer\temp
+07-Nov-2022 01:38:32.940 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:38:32.941 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:38:32.942 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:38:32.961 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:38:33.352 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:38:33.385 정보 [main] org.apache.catalina.startup.Catalina.load [796] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:38:33.442 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:38:33.443 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:38:34.121 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [333] 밀리초가 소요됐습니다.
+07-Nov-2022 01:38:34.152 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:38:34.204 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [51] 밀리초에 완료되었습니다.
+07-Nov-2022 01:38:34.205 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:38:34.259 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [54] 밀리초에 완료되었습니다.
+07-Nov-2022 01:38:34.260 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:38:34.801 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [541] 밀리초에 완료되었습니다.
+07-Nov-2022 01:38:34.801 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:38:34.845 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [44] 밀리초에 완료되었습니다.
+07-Nov-2022 01:38:34.846 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:38:34.885 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [39] 밀리초에 완료되었습니다.
+07-Nov-2022 01:38:34.892 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:38:34.918 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1529] 밀리초 내에 시작되었습니다.
+07-Nov-2022 01:39:23.242 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+07-Nov-2022 01:39:23.243 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8282"]을(를) 일시 정지 중
+07-Nov-2022 01:39:23.513 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+07-Nov-2022 01:39:23.548 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
+07-Nov-2022 01:39:23.557 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
+07-Nov-2022 01:39:24.988 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:39:25.016 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:39:25.017 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:39:25.017 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:39:25.017 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:39:25.018 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:39:25.019 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:39:25.019 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:39:25.019 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:39:25.020 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:39:25.020 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:39:25.020 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:39:25.021 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 01:39:25.021 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:39:25.022 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:39:25.022 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:39:25.023 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:39:25.024 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:39:25.025 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:39:25.026 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 01:39:25.027 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 01:39:25.028 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 01:39:25.032 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:39:25.033 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:39:25.035 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:39:25.059 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:39:25.462 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:39:25.495 정보 [main] org.apache.catalina.startup.Catalina.load [745] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:39:25.542 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:39:25.569 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:39:26.231 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [306] 밀리초가 소요됐습니다.
+07-Nov-2022 01:39:26.265 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:39:26.271 정보 [main] org.apache.catalina.startup.ExpandWar.expand 압축이 풀려진 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine]의 최종 변경 시간이, 연관된 WAR의 최종 변경 시간과 부합하지 않습니다. 해당 디렉토리는 삭제될 것입니다.
+07-Nov-2022 01:39:26.415 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [150] 밀리초에 완료되었습니다.
+07-Nov-2022 01:39:26.416 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:39:26.450 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [33] 밀리초에 완료되었습니다.
+07-Nov-2022 01:39:26.450 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:39:27.173 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [722] 밀리초에 완료되었습니다.
+07-Nov-2022 01:39:27.177 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:39:27.237 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [59] 밀리초에 완료되었습니다.
+07-Nov-2022 01:39:27.238 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:39:27.372 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [134] 밀리초에 완료되었습니다.
+07-Nov-2022 01:39:27.396 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:39:27.433 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1935] 밀리초 내에 시작되었습니다.
+07-Nov-2022 01:39:42.208 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+07-Nov-2022 01:39:42.209 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8282"]을(를) 일시 정지 중
+07-Nov-2022 01:39:42.516 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+07-Nov-2022 01:39:42.548 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
+07-Nov-2022 01:39:42.556 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
+07-Nov-2022 01:39:44.460 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:39:44.494 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:39:44.494 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:39:44.495 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:39:44.495 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:39:44.495 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:39:44.495 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:39:44.496 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:39:44.496 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:39:44.496 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:39:44.496 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:39:44.497 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:39:44.497 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=E:\kakaoBankNumbering\NumberingServer\conf\logging.properties
+07-Nov-2022 01:39:44.498 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:39:44.498 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:39:44.502 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:39:44.503 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:39:44.504 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:39:44.505 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:39:44.505 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:39:44.506 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:39:44.507 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:39:44.508 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=E:\kakaoBankNumbering\NumberingServer\temp
+07-Nov-2022 01:39:44.513 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:39:44.514 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:39:44.515 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:39:44.525 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:39:44.892 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:39:44.922 정보 [main] org.apache.catalina.startup.Catalina.load [774] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:39:44.967 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:39:44.968 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:39:45.550 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [299] 밀리초가 소요됐습니다.
+07-Nov-2022 01:39:45.577 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:39:45.619 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [41] 밀리초에 완료되었습니다.
+07-Nov-2022 01:39:45.620 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:39:45.654 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [34] 밀리초에 완료되었습니다.
+07-Nov-2022 01:39:45.655 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:39:46.092 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [436] 밀리초에 완료되었습니다.
+07-Nov-2022 01:39:46.093 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:39:46.134 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [41] 밀리초에 완료되었습니다.
+07-Nov-2022 01:39:46.135 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:39:46.175 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [40] 밀리초에 완료되었습니다.
+07-Nov-2022 01:39:46.180 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:39:46.204 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1279] 밀리초 내에 시작되었습니다.
+07-Nov-2022 01:44:04.955 심각 [main] org.apache.catalina.startup.Catalina.stopServer [localhost:8005] (base 포트 [8005] 그리고 offset [0])와(과) 연결할 수 없었습니다. Tomcat이 실행 중이지 않을 수 있습니다.
+07-Nov-2022 01:44:04.961 심각 [main] org.apache.catalina.startup.Catalina.stopServer Catalina를 중지시키는 중 오류 발생
+	java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:589)
+		at java.net.Socket.connect(Socket.java:538)
+		at java.net.Socket.<init>(Socket.java:434)
+		at java.net.Socket.<init>(Socket.java:211)
+		at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:667)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:391)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:481)
+07-Nov-2022 01:44:07.164 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:44:07.196 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:44:07.197 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:44:07.197 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:44:07.198 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:44:07.198 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:44:07.198 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:44:07.198 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:44:07.198 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:44:07.199 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:44:07.199 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:44:07.199 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:44:07.200 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 01:44:07.201 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:44:07.201 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:44:07.201 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:44:07.204 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:44:07.207 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:44:07.208 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:44:07.209 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 01:44:07.210 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 01:44:07.211 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 01:44:07.216 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:44:07.216 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:44:07.217 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:44:07.237 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:52:24.897 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:52:24.933 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:52:24.934 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:52:24.934 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:52:24.934 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:52:24.935 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:52:24.935 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:52:24.939 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:52:24.940 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:52:24.940 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:52:24.940 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:52:24.940 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:52:24.941 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 01:52:24.941 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:52:24.942 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:52:24.942 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:52:24.942 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:52:24.943 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:52:24.944 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:52:24.944 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 01:52:24.948 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 01:52:24.948 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 01:52:24.952 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:52:24.953 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:52:24.955 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:52:24.968 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:52:25.354 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:52:25.382 정보 [main] org.apache.catalina.startup.Catalina.load [770] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:52:25.423 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:52:25.425 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:52:26.049 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [292] 밀리초가 소요됐습니다.
+07-Nov-2022 01:52:26.075 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:52:26.081 정보 [main] org.apache.catalina.startup.ExpandWar.expand 압축이 풀려진 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine]의 최종 변경 시간이, 연관된 WAR의 최종 변경 시간과 부합하지 않습니다. 해당 디렉토리는 삭제될 것입니다.
+07-Nov-2022 01:52:26.237 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [162] 밀리초에 완료되었습니다.
+07-Nov-2022 01:52:26.239 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:52:26.265 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [25] 밀리초에 완료되었습니다.
+07-Nov-2022 01:52:26.265 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:52:26.718 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [453] 밀리초에 완료되었습니다.
+07-Nov-2022 01:52:26.719 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:52:26.757 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [38] 밀리초에 완료되었습니다.
+07-Nov-2022 01:52:26.758 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:52:26.795 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [37] 밀리초에 완료되었습니다.
+07-Nov-2022 01:52:26.803 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:52:26.825 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1441] 밀리초 내에 시작되었습니다.
+07-Nov-2022 01:54:13.425 심각 [main] org.apache.catalina.startup.Catalina.stopServer [localhost:8005] (base 포트 [8005] 그리고 offset [0])와(과) 연결할 수 없었습니다. Tomcat이 실행 중이지 않을 수 있습니다.
+07-Nov-2022 01:54:15.054 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:54:15.089 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:54:15.090 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:54:15.090 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:54:15.090 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:54:15.090 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:54:15.091 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:54:15.091 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:54:15.091 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:54:15.091 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:54:15.093 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:54:15.094 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:54:15.095 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 01:54:15.095 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:54:15.095 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:54:15.095 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:54:15.096 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:54:15.098 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:54:15.098 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:54:15.099 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 01:54:15.101 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 01:54:15.102 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 01:54:15.106 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:54:15.107 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:54:15.107 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:54:15.117 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:54:15.589 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:54:15.634 정보 [main] org.apache.catalina.startup.Catalina.load [857] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:54:15.682 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:54:15.683 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:54:16.417 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [348] 밀리초가 소요됐습니다.
+07-Nov-2022 01:54:16.446 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:54:16.455 정보 [main] org.apache.catalina.startup.ExpandWar.expand 압축이 풀려진 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine]의 최종 변경 시간이, 연관된 WAR의 최종 변경 시간과 부합하지 않습니다. 해당 디렉토리는 삭제될 것입니다.
+07-Nov-2022 01:54:16.579 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [134] 밀리초에 완료되었습니다.
+07-Nov-2022 01:54:16.581 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:54:16.607 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [26] 밀리초에 완료되었습니다.
+07-Nov-2022 01:54:16.609 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:54:17.113 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [504] 밀리초에 완료되었습니다.
+07-Nov-2022 01:54:17.115 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:54:17.170 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [54] 밀리초에 완료되었습니다.
+07-Nov-2022 01:54:17.170 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:54:17.207 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [37] 밀리초에 완료되었습니다.
+07-Nov-2022 01:54:17.213 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:54:17.240 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1605] 밀리초 내에 시작되었습니다.
+07-Nov-2022 01:55:37.334 정보 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/numberingEngine]의 배치를 제거합니다.
+07-Nov-2022 01:55:37.359 정보 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:55:37.494 정보 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [136] 밀리초에 완료되었습니다.
+07-Nov-2022 01:55:40.179 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+07-Nov-2022 01:55:40.180 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8282"]을(를) 일시 정지 중
+07-Nov-2022 01:55:40.462 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+07-Nov-2022 01:55:40.484 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
+07-Nov-2022 01:55:40.491 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
+07-Nov-2022 01:55:42.197 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 01:55:42.268 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 01:55:42.269 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 01:55:42.269 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 01:55:42.269 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 01:55:42.270 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 01:55:42.270 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 01:55:42.270 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 01:55:42.271 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 01:55:42.272 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 01:55:42.274 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:55:42.275 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 01:55:42.276 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 01:55:42.277 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:55:42.277 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 01:55:42.278 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 01:55:42.278 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 01:55:42.280 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 01:55:42.281 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 01:55:42.281 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 01:55:42.283 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 01:55:42.283 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 01:55:42.291 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 01:55:42.292 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 01:55:42.293 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 01:55:42.314 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 01:55:42.811 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 01:55:42.871 정보 [main] org.apache.catalina.startup.Catalina.load [948] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 01:55:42.923 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 01:55:42.928 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 01:55:43.579 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [299] 밀리초가 소요됐습니다.
+07-Nov-2022 01:55:43.609 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 01:55:43.652 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [42] 밀리초에 완료되었습니다.
+07-Nov-2022 01:55:43.653 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 01:55:43.681 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [28] 밀리초에 완료되었습니다.
+07-Nov-2022 01:55:43.681 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 01:55:44.070 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [389] 밀리초에 완료되었습니다.
+07-Nov-2022 01:55:44.071 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 01:55:44.107 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [36] 밀리초에 완료되었습니다.
+07-Nov-2022 01:55:44.108 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 01:55:44.146 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [38] 밀리초에 완료되었습니다.
+07-Nov-2022 01:55:44.154 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 01:55:44.179 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1306] 밀리초 내에 시작되었습니다.
+07-Nov-2022 02:01:34.556 정보 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/numberingEngine]의 배치를 제거합니다.
+07-Nov-2022 02:01:34.578 정보 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 02:01:34.688 정보 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [110] 밀리초에 완료되었습니다.
+07-Nov-2022 02:01:44.712 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+07-Nov-2022 02:01:44.714 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8282"]을(를) 일시 정지 중
+07-Nov-2022 02:01:44.992 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+07-Nov-2022 02:01:45.011 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
+07-Nov-2022 02:01:45.021 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
+07-Nov-2022 02:01:46.628 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 02:01:46.663 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 02:01:46.664 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 02:01:46.664 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 02:01:46.665 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 02:01:46.665 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 02:01:46.666 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 02:01:46.666 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 02:01:46.667 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 02:01:46.667 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 02:01:46.667 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 02:01:46.668 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 02:01:46.669 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=E:\kakaoBankNumbering\NumberingServer\conf\logging.properties
+07-Nov-2022 02:01:46.669 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 02:01:46.670 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 02:01:46.674 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 02:01:46.674 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 02:01:46.675 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 02:01:46.677 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 02:01:46.678 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 02:01:46.681 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 02:01:46.682 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 02:01:46.683 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=E:\kakaoBankNumbering\NumberingServer\temp
+07-Nov-2022 02:01:46.688 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 02:01:46.689 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 02:01:46.690 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 02:01:46.706 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 02:01:47.155 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 02:01:47.198 정보 [main] org.apache.catalina.startup.Catalina.load [807] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 02:01:47.276 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 02:01:47.277 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 02:01:48.067 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [355] 밀리초가 소요됐습니다.
+07-Nov-2022 02:01:48.099 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 02:01:48.140 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [41] 밀리초에 완료되었습니다.
+07-Nov-2022 02:01:48.142 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 02:01:48.167 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [24] 밀리초에 완료되었습니다.
+07-Nov-2022 02:01:48.168 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 02:01:48.575 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [407] 밀리초에 완료되었습니다.
+07-Nov-2022 02:01:48.576 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 02:01:48.610 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [34] 밀리초에 완료되었습니다.
+07-Nov-2022 02:01:48.611 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 02:01:48.653 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [42] 밀리초에 완료되었습니다.
+07-Nov-2022 02:01:48.659 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 02:01:48.683 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1482] 밀리초 내에 시작되었습니다.
+07-Nov-2022 03:19:01.684 심각 [main] org.apache.catalina.startup.Catalina.stopServer [localhost:8005] (base 포트 [8005] 그리고 offset [0])와(과) 연결할 수 없었습니다. Tomcat이 실행 중이지 않을 수 있습니다.
+07-Nov-2022 03:19:03.190 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 03:19:03.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 03:19:03.250 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 03:19:03.250 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 03:19:03.251 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 03:19:03.251 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 03:19:03.251 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 03:19:03.252 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 03:19:03.252 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 03:19:03.252 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 03:19:03.253 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 03:19:03.253 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 03:19:03.254 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 03:19:03.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 03:19:03.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 03:19:03.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 03:19:03.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 03:19:03.257 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 03:19:03.259 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 03:19:03.263 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 03:19:03.263 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 03:19:03.265 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 03:19:03.270 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 03:19:03.271 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 03:19:03.272 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 03:19:03.294 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 03:19:03.786 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 03:19:03.818 정보 [main] org.apache.catalina.startup.Catalina.load [910] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 03:19:03.867 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 03:19:03.870 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 03:19:04.536 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [340] 밀리초가 소요됐습니다.
+07-Nov-2022 03:19:04.578 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 03:19:04.587 정보 [main] org.apache.catalina.startup.ExpandWar.expand 압축이 풀려진 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine]의 최종 변경 시간이, 연관된 WAR의 최종 변경 시간과 부합하지 않습니다. 해당 디렉토리는 삭제될 것입니다.
+07-Nov-2022 03:19:04.708 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [130] 밀리초에 완료되었습니다.
+07-Nov-2022 03:19:04.711 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 03:19:04.744 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [33] 밀리초에 완료되었습니다.
+07-Nov-2022 03:19:04.745 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 03:19:05.257 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [513] 밀리초에 완료되었습니다.
+07-Nov-2022 03:19:05.258 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 03:19:05.318 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [60] 밀리초에 완료되었습니다.
+07-Nov-2022 03:19:05.319 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 03:19:05.359 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [40] 밀리초에 완료되었습니다.
+07-Nov-2022 03:19:05.368 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 03:19:05.400 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1580] 밀리초 내에 시작되었습니다.
+07-Nov-2022 03:22:51.270 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+07-Nov-2022 03:22:51.271 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8282"]을(를) 일시 정지 중
+07-Nov-2022 03:22:51.530 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+07-Nov-2022 03:22:51.560 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
+07-Nov-2022 03:22:51.566 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
+07-Nov-2022 03:24:32.774 심각 [main] org.apache.catalina.startup.Catalina.stopServer [localhost:8005] (base 포트 [8005] 그리고 offset [0])와(과) 연결할 수 없었습니다. Tomcat이 실행 중이지 않을 수 있습니다.
+07-Nov-2022 03:24:34.063 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 03:24:34.092 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 03:24:34.093 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 03:24:34.093 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 03:24:34.093 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 03:24:34.094 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 03:24:34.094 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 03:24:34.098 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 03:24:34.098 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 03:24:34.099 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 03:24:34.099 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 03:24:34.099 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 03:24:34.100 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 03:24:34.100 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 03:24:34.101 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 03:24:34.101 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 03:24:34.101 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 03:24:34.102 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 03:24:34.103 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 03:24:34.104 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 03:24:34.105 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 03:24:34.105 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 03:24:34.110 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 03:24:34.110 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 03:24:34.111 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 03:24:34.119 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 03:24:34.512 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 03:24:34.546 정보 [main] org.apache.catalina.startup.Catalina.load [765] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 03:24:34.599 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 03:24:34.599 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 03:24:35.209 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [312] 밀리초가 소요됐습니다.
+07-Nov-2022 03:24:35.235 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 03:24:35.242 정보 [main] org.apache.catalina.startup.ExpandWar.expand 압축이 풀려진 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine]의 최종 변경 시간이, 연관된 WAR의 최종 변경 시간과 부합하지 않습니다. 해당 디렉토리는 삭제될 것입니다.
+07-Nov-2022 03:24:35.348 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [112] 밀리초에 완료되었습니다.
+07-Nov-2022 03:24:35.349 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 03:24:35.377 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [28] 밀리초에 완료되었습니다.
+07-Nov-2022 03:24:35.377 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 03:24:35.776 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [399] 밀리초에 완료되었습니다.
+07-Nov-2022 03:24:35.777 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 03:24:35.809 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [32] 밀리초에 완료되었습니다.
+07-Nov-2022 03:24:35.809 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 03:24:35.845 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [35] 밀리초에 완료되었습니다.
+07-Nov-2022 03:24:35.850 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 03:24:35.877 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1330] 밀리초 내에 시작되었습니다.
+07-Nov-2022 03:42:12.934 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+07-Nov-2022 03:42:12.936 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8282"]을(를) 일시 정지 중
+07-Nov-2022 03:42:13.231 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+07-Nov-2022 03:42:13.260 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
+07-Nov-2022 03:42:13.275 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.
+07-Nov-2022 03:57:49.799 심각 [main] org.apache.catalina.startup.Catalina.stopServer [localhost:8005] (base 포트 [8005] 그리고 offset [0])와(과) 연결할 수 없었습니다. Tomcat이 실행 중이지 않을 수 있습니다.
+07-Nov-2022 03:57:49.824 심각 [main] org.apache.catalina.startup.Catalina.stopServer Catalina를 중지시키는 중 오류 발생
+	java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+		at java.net.Socket.connect(Socket.java:589)
+		at java.net.Socket.connect(Socket.java:538)
+		at java.net.Socket.<init>(Socket.java:434)
+		at java.net.Socket.<init>(Socket.java:211)
+		at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:667)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:391)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:481)
+07-Nov-2022 03:57:51.211 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 03:57:51.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 03:57:51.247 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 03:57:51.248 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 03:57:51.248 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 03:57:51.248 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 03:57:51.248 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 03:57:51.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 03:57:51.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 03:57:51.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 03:57:51.249 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 03:57:51.250 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 03:57:51.251 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 03:57:51.251 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 03:57:51.251 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 03:57:51.251 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 03:57:51.252 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 03:57:51.253 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 03:57:51.254 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 03:57:51.255 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 03:57:51.258 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 03:57:51.260 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 03:57:51.265 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 03:57:51.265 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 03:57:51.266 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 03:57:51.294 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 03:57:51.821 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 03:57:51.867 정보 [main] org.apache.catalina.startup.Catalina.load [959] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 03:57:51.921 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 03:57:51.922 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 03:57:52.611 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [349] 밀리초가 소요됐습니다.
+07-Nov-2022 03:57:52.652 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 03:57:52.663 정보 [main] org.apache.catalina.startup.ExpandWar.expand 압축이 풀려진 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine]의 최종 변경 시간이, 연관된 WAR의 최종 변경 시간과 부합하지 않습니다. 해당 디렉토리는 삭제될 것입니다.
+07-Nov-2022 03:57:52.854 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [202] 밀리초에 완료되었습니다.
+07-Nov-2022 03:57:52.855 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 03:57:52.902 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [46] 밀리초에 완료되었습니다.
+07-Nov-2022 03:57:52.917 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 03:57:53.495 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [579] 밀리초에 완료되었습니다.
+07-Nov-2022 03:57:53.495 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 03:57:53.544 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [49] 밀리초에 완료되었습니다.
+07-Nov-2022 03:57:53.546 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 03:57:53.627 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [80] 밀리초에 완료되었습니다.
+07-Nov-2022 03:57:53.635 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 03:57:53.662 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1793] 밀리초 내에 시작되었습니다.
+07-Nov-2022 03:59:03.838 심각 [main] org.apache.catalina.startup.Catalina.stopServer [localhost:8005] (base 포트 [8005] 그리고 offset [0])와(과) 연결할 수 없었습니다. Tomcat이 실행 중이지 않을 수 있습니다.
+07-Nov-2022 03:59:05.120 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+07-Nov-2022 03:59:05.154 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+07-Nov-2022 03:59:05.154 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+07-Nov-2022 03:59:05.155 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+07-Nov-2022 03:59:05.155 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Windows 10
+07-Nov-2022 03:59:05.155 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     10.0
+07-Nov-2022 03:59:05.155 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Nov-2022 03:59:05.156 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           C:\Program Files\Java\jdk1.8.0_202\jre
+07-Nov-2022 03:59:05.156 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          1.8.0_202-b08
+07-Nov-2022 03:59:05.156 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+07-Nov-2022 03:59:05.157 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 03:59:05.157 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\kakaoBankNumbering\NumberingServer
+07-Nov-2022 03:59:05.158 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=../NumberingServer\conf\logging.properties
+07-Nov-2022 03:59:05.158 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 03:59:05.158 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+07-Nov-2022 03:59:05.159 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Nov-2022 03:59:05.159 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Nov-2022 03:59:05.160 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=utf-8
+07-Nov-2022 03:59:05.161 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+07-Nov-2022 03:59:05.162 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=../NumberingServer
+07-Nov-2022 03:59:05.163 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=../NumberingServer
+07-Nov-2022 03:59:05.165 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=../NumberingServer\temp
+07-Nov-2022 03:59:05.171 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.35]을(를) 로드했습니다.
+07-Nov-2022 03:59:05.171 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Nov-2022 03:59:05.172 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+07-Nov-2022 03:59:05.191 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1q  5 Jul 2022]
+07-Nov-2022 03:59:05.635 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8282"]을(를) 초기화합니다.
+07-Nov-2022 03:59:05.673 정보 [main] org.apache.catalina.startup.Catalina.load [823] 밀리초 내에 서버가 초기화되었습니다.
+07-Nov-2022 03:59:05.730 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Nov-2022 03:59:05.733 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+07-Nov-2022 03:59:06.471 경고 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom [SHA1PRNG] 알고리즘을 사용하여, 세션 ID를 생성하기 위한 SecureRandom 객체를 생성하는데, [355] 밀리초가 소요됐습니다.
+07-Nov-2022 03:59:06.500 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]을(를) 배치합니다.
+07-Nov-2022 03:59:06.544 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [E:\kakaoBankNumbering\NumberingServer\webapps\numberingEngine.war]의 배치가 [43] 밀리초에 완료되었습니다.
+07-Nov-2022 03:59:06.546 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]을(를) 배치합니다.
+07-Nov-2022 03:59:06.582 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\docs]에 대한 배치가 [36] 밀리초에 완료되었습니다.
+07-Nov-2022 03:59:06.584 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]을(를) 배치합니다.
+07-Nov-2022 03:59:07.051 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\examples]에 대한 배치가 [466] 밀리초에 완료되었습니다.
+07-Nov-2022 03:59:07.066 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]을(를) 배치합니다.
+07-Nov-2022 03:59:07.132 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\host-manager]에 대한 배치가 [67] 밀리초에 완료되었습니다.
+07-Nov-2022 03:59:07.134 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]을(를) 배치합니다.
+07-Nov-2022 03:59:07.185 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [E:\kakaoBankNumbering\NumberingServer\webapps\manager]에 대한 배치가 [52] 밀리초에 완료되었습니다.
+07-Nov-2022 03:59:07.197 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8282"]을(를) 시작합니다.
+07-Nov-2022 03:59:07.235 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1560] 밀리초 내에 시작되었습니다.
+07-Nov-2022 03:59:56.688 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+07-Nov-2022 03:59:56.689 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8282"]을(를) 일시 정지 중
+07-Nov-2022 03:59:57.000 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+07-Nov-2022 03:59:57.048 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8282"]을(를) 중지시킵니다.
+07-Nov-2022 03:59:57.072 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8282"]을(를) 소멸시킵니다.

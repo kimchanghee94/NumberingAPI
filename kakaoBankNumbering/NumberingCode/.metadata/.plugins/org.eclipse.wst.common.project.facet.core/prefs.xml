@@ -1,0 +1,48 @@
+<root>
+  <facet id="jst.jstl">
+    <node name="libprov">
+      <node name="last-provider-used">
+        <attribute name="1.2" value="user-library-provider-jstl"/>
+      </node>
+    </node>
+    <node name="user.library.provider">
+      <node name="last.used.libraries">
+        <node name="1.2"/>
+      </node>
+    </node>
+  </facet>
+  <facet id="jst.jsf">
+    <node name="libprov">
+      <node name="last-provider-used"/>
+    </node>
+  </facet>
+  <facet id="jst.jaxrs">
+    <node name="libprov">
+      <node name="last-provider-used">
+        <attribute name="1.1" value="jaxrs-no-op-library-provider"/>
+      </node>
+    </node>
+  </facet>
+  <facet id="jpt.jpa">
+    <node name="libprov">
+      <node name="last-provider-used">
+        <attribute name="2.2" value="jpa-user-library-provider"/>
+      </node>
+    </node>
+    <node name="user.library.provider">
+      <node name="last.used.libraries">
+        <node name="2.2"/>
+      </node>
+    </node>
+  </facet>
+  <facet id="oracle.coherence">
+    <node name="libprov">
+      <node name="last-provider-used"/>
+    </node>
+  </facet>
+  <facet id="jst.jsf.trinidad">
+    <node name="libprov">
+      <node name="last-provider-used"/>
+    </node>
+  </facet>
+</root>

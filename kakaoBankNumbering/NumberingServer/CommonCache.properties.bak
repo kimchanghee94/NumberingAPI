@@ -1,0 +1,2 @@
+key_log4j.log_file_name=NumberingEngine
+key_log4j.level=INFO

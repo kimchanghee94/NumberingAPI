@@ -1,0 +1,7 @@
+package common.logging;
+
+public class LoggerForNumbering {
+	public static void main() {
+		
+	}
+}

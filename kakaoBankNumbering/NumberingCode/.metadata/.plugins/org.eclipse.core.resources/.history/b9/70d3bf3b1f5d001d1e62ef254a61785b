@@ -1,0 +1,27 @@
+package engine;
+
+public class Version {
+	public static String VERSION_NUMBER = "1";
+
+	public static String VERSION_SUB_NUMBER = ".00";
+
+	public static String NAME = "engine";
+
+	public static String BUILD_ID = "0001";
+
+	public static String BUILD_DATE = "2022.11..13";
+
+	public static String VERSION = "kakaBank_" + VERSION_NUMBER + "-" + NAME + "[" + BUILD_ID + "](" + BUILD_DATE + ") "
+			+ VERSION_SUB_NUMBER;
+
+	public static String REQUIRES = "";
+
+	public static String CHANGE = "채번 API 서버 구축";
+
+	public static String FULL_NUMBER = "[" + BUILD_ID + "](" + BUILD_DATE + ")";
+
+	public static void main(String[] args) {
+		System.out.println(VERSION);
+		System.out.println("    requires:" + REQUIRES);
+	}
+}

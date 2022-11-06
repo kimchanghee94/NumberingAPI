@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+<project name = "kakaoBank" default="help" basedir=".">
+	<target name="help">
+		<echo message="Use ant -projecthelp for usage information." />
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- engine                                                              -->
+	<!-- =================================================================== -->
+	<target name="init.engine">
+		<property name="build.dir.engine" value="../build/engine" />
+		<property name="dist.dir.engine" value="../dist/engine" />
+		<property name="src.dir" value="../src" />
+		<property name="lib.dir" value="../lib" />
+		<property name="compile.debug" value="true" />
+		<property name="compile.deprecation" value="false" />
+		<property name="compile.optimize" value="true" />
+		<property name="compile.encoding" value="euc-kr" />
+	</target>
+
+	<target name="compile.engine" depends="init.engine" >
+		<mkdir dir="${build.dir.engine}" />
+		<javac srcdir="${src.dir}" destdir="${build.dir.engine}" deprecation="${compile.deprecation}" debug="${compile.debug}" optimize="${compile.optimize}" encoding="${compile.encoding}">
+			<include name="engine/*.java" />
+			<include name="logging/*.java" />
+			<classpath refid="classpath.engine" />
+		</javac>
+	</target>
+
+	<target name="clean.engine"  depends="init.engine">
+		<delete dir="${../build.dir.engine}" />
+		<delete dir="${../dist.dir.engine}" />
+	</target>
+
+	<target name="dist.engine"  depends="clean.engine, compile.engine">
+		<mkdir dir="${dist.dir.engine}" />
+		<war warfile="${dist.dir.engine}/engine.war" basedir="${../build.dir.engine}" >
+		<manifest>
+			<attribute name="Built-By" value="ChangHee_Kim" />
+			<attribute name="Main-Class" value="engine.Version" />
+			<attribute name="Sealed" value="false" />
+		</manifest>
+		</war>
+	</target>
+</project>

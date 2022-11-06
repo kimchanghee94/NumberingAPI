@@ -1,0 +1,7 @@
+[2022-11-07 03:57:18] [INFO ] Logger output will be appended to the file [E:\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-07 03:57:31] [INFO ] Test for Info log
+[2022-11-07 03:58:29] [INFO ] Logger output will be appended to the file [E:\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-07 03:58:29] [INFO ] Test for Info log
+[2022-11-07 03:59:10] [INFO ] Logger output will be appended to the file [E:\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-07 03:59:10] [DEBUG] [NumberingServlet] Test for Debug log
+[2022-11-07 03:59:10] [INFO ] Test for Info log
