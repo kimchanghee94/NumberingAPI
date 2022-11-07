@@ -1,7 +1,17 @@
 package engine;
 
+/**
+ * 채번 서버구동
+ * doPost로 처리하여 Json, Stream타입에 따라 처리방식 구분
+ * 
+ * @version 1.00
+ * @since 2022/11/13
+ * @author Changhee Kim
+ */
+
 import java.io.IOException;
 import java.io.OutputStream;
+import java.util.Enumeration;
 
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;
@@ -22,19 +32,33 @@ public class NumberingServlet extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("****** doGet Call ******");
-        System.out.println("****** request : " + request);
+		Logger.debug("<=================doGet Call=================>");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-		System.out.println("****** doPost Call ******");
-		Logger.debug("Test for Debug log");
-		Logger.info("Test for Info log");
-		try {
-			StreamProcess(request, response);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
+		Logger.debug("<=================doPost Call=================>");
+		
+		//content-type 구분
+		String reqContentType = request.getContentType();
+		Logger.debug("request ContentType : " + reqContentType);
+		int cIdx = reqContentType.lastIndexOf('/');
+		reqContentType = reqContentType.substring(cIdx + 1);
+		
+		//json타입 처리
+		if(reqContentType.equalsIgnoreCase("json")) {
+			try {
+				JsonProcess.method(request, response);
+			} catch(InterruptedException e) {
+				Logger.error(e);
+			}
+		}
+		//stream전문 처리
+		else {
+			try {
+				StreamProcess.method(request, response);
+			} catch (InterruptedException e) {
+				Logger.error(e);
+			}	
 		}
 	}
 	

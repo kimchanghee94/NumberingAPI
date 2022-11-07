@@ -1,7 +1,5 @@
 package common;
 
-import java.io.File;
-
 /**
  * CommonCache.properties를 통해 사용자가 시스템 속성을 넣는다.
  * 사용자가 설정한 속성에 대해 기능 동작을 할 수 있도록 한다.
@@ -11,9 +9,9 @@ import java.io.File;
  * @author Changhee Kim
  */
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Enumeration;
 import java.util.Properties;
 
 import common.logging.Logger;
