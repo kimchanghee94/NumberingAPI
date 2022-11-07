@@ -45,7 +45,7 @@ public class NumberingServlet extends HttpServlet {
 		reqContentType = reqContentType.substring(cIdx + 1);
 		
 		//json타입 처리
-		if(reqContentType.equalsIgnoreCase("json")) {
+		/*if(reqContentType.equalsIgnoreCase("json")) {
 			try {
 				JsonProcess.method(request, response);
 			} catch(InterruptedException e) {
@@ -59,7 +59,7 @@ public class NumberingServlet extends HttpServlet {
 			} catch (InterruptedException e) {
 				Logger.error(e);
 			}	
-		}
+		}*/
 	}
 	
 	public void StreamProcess(HttpServletRequest req, HttpServletResponse res)
