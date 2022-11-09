@@ -12,7 +12,6 @@ package common.logging;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Properties;
 
 import org.apache.log4j.Appender;
 import org.apache.log4j.ConsoleAppender;

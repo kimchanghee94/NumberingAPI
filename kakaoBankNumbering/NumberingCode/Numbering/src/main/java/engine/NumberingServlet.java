@@ -10,23 +10,22 @@ package engine;
  */
 
 import java.io.IOException;
-import java.io.OutputStream;
-import java.util.Enumeration;
 
 import javax.servlet.ServletException;
-import javax.servlet.ServletOutputStream;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import common.logging.Logger;
+import engine.service.JsonProcess;
+import engine.service.StreamProcess;
 
 @WebServlet("/NumberingServlet")
 public class NumberingServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
-
+	
     public NumberingServlet() {
     	Logger.initLogger();
     }
@@ -42,51 +41,25 @@ public class NumberingServlet extends HttpServlet {
 		String reqContentType = request.getContentType();
 		Logger.debug("request ContentType : " + reqContentType);
 		int cIdx = reqContentType.lastIndexOf('/');
-		reqContentType = reqContentType.substring(cIdx + 1);
+		reqContentType = reqContentType.substring(cIdx + 1);	
 		
-		//json鸥涝 贸府
-		/*if(reqContentType.equalsIgnoreCase("json")) {
+		//json 傈巩 贸府
+		if(reqContentType.equalsIgnoreCase("json") == true) {
 			try {
-				JsonProcess.method(request, response);
+				JsonProcess jsonProcess = new JsonProcess(request, response);
+				jsonProcess.method();
 			} catch(InterruptedException e) {
 				Logger.error(e);
 			}
 		}
-		//stream傈巩 贸府
+		//stream 傈巩 贸府
 		else {
 			try {
-				StreamProcess.method(request, response);
+				StreamProcess streamProcess = new StreamProcess(request, response);
+				streamProcess.method();
 			} catch (InterruptedException e) {
 				Logger.error(e);
 			}	
-		}*/
+		}
 	}
-	
-	public void StreamProcess(HttpServletRequest req, HttpServletResponse res)
-            throws ServletException, IOException, InterruptedException {
-
-            req.setCharacterEncoding("EUC-KR");
-            res.setCharacterEncoding("UTF-8");
-
-        	  int i = req.getContentLength();
-        	  byte[] arrayOfByte = new byte[i];
-
-            req.getInputStream().read(arrayOfByte);
-            String str1 = new String(arrayOfByte);
-
-            System.out.println("****** doPost request(str1) : " + str1);
-
-            ServletOutputStream out1 = res.getOutputStream();
-            res.setStatus(200);
-            res.setContentType("application/json");
-            res.setCharacterEncoding("UTF-8");
-            OutputStream os = res.getOutputStream();
-
-			str1 = "javaServer";
-			byte[] output_data = str1.getBytes("EUC-KR");
-
-			os.write(output_data);
-			os.flush();
-	    }
-
 }

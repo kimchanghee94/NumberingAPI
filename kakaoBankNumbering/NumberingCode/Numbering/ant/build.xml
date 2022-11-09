@@ -27,6 +27,7 @@
 		<path id="classpath.engine">
 			<pathelement location="${lib.dir}/log4j-1.2.8.jar" />
 			<pathelement location="${lib.dir}/servlet-api.jar" />
+			<pathelement location="${lib.dir}/json-simple-1.1.1.jar"/>
 		</path>
 	</target>
 
@@ -34,6 +35,7 @@
 	<target name="compile.engine" depends="init.engine">
 		<mkdir dir="${build.dir.engine}" />
 		<javac srcdir="${src.dir}" destdir="${build.dir.engine}" deprecation="${compile.deprecation}" debug="${compile.debug}" optimize="${compile.optimize}" encoding="${compile.encoding}">
+			<include name="engine/service/*.java"/>
 			<include name="engine/*.java" />
 			<include name="common/Property.java" />
 			<include name="common/logging/*.java" />
@@ -51,6 +53,7 @@
 	<target name="dist.engine"  depends="clean.engine, compile.engine">
 		<copy todir="${web-lib.dir}" file="${lib.dir}/log4j-1.2.8.jar" />
 		<copy todir="${web-lib.dir}" file="${lib.dir}/servlet-api.jar"/>
+		<copy todir="${web-lib.dir}" file="${lib.dir}/json-simple-1.1.1.jar"/>
 		<mkdir dir="${dist.dir.engine}" />
 		<war warfile="${dist.dir.engine}/${war-file-name}" webxml="${web-xml-file}"  >
 			<classes dir="${classes-directory}"  />
