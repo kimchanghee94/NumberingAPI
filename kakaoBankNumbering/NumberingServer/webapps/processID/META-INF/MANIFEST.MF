@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-Ant-Version: Apache Ant 1.10.12
-Created-By: 1.8.0_202-b08 (Oracle Corporation)
-Built-By: ChangHee_Kim
-Main-Class: engine.Version
-Sealed: false
-
