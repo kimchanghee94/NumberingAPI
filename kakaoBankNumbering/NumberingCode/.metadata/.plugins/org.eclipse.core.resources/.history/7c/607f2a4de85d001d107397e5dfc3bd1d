@@ -1,9 +1,0 @@
-package common;
-
-public class Property {
-	  public static final String KEY__LOG4j_LOG_LEVEL = "key_log4j.level";
-	  
-	  public static final String KEY__LOG4j_LOG_PATH = "key_log4j.log_path";
-	  
-	  public static final String KEY__LOG4j_LOG_FILENAME = "key_log4j.log_file_name";
-}

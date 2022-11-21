@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="PROPERTIES_PATH"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="PROPERTIES_PATH"/>
+			<item value="Load_Balance_Idx"/>
+			<item value="getSeqId"/>
+			<item value="web-xml-file"/>
+			<item value="web-lib.dir"/>
+			<item value="classes-directory"/>
+			<item value="webapp.dir"/>
+			<item value="war-file-name"/>
+			<item value="web-lib.dir}"/>
+			<item value="dist.dir.loadB"/>
+			<item value="engine"/>
+			<item value="Logger output will be"/>
+			<item value="DEFAULT_LOGGER_PATTERN"/>
+			<item value="_layout"/>
+			<item value="&#x09;  public static void initLogger() {"/>
+		</list>
+		<list key="replacehistory">
+			<item value="loadB-webapp.dir"/>
+			<item value="engine-webapp.dir"/>
+			<item value="war-file-name-loadB"/>
+			<item value="war-file-name-engine"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="995"/>
+		<item key="DIALOG_Y_ORIGIN" value="231"/>
+		<item key="DIALOG_WIDTH" value="322"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+</section>

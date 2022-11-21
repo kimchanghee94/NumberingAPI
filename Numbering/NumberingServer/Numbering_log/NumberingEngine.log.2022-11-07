@@ -1,0 +1,22 @@
+[2022-11-07 03:57:18] [INFO ] Logger output will be appended to the file [E:\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-07 03:57:31] [INFO ] Test for Info log
+[2022-11-07 03:58:29] [INFO ] Logger output will be appended to the file [E:\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-07 03:58:29] [INFO ] Test for Info log
+[2022-11-07 03:59:10] [INFO ] Logger output will be appended to the file [E:\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-07 03:59:10] [DEBUG] [NumberingServlet] Test for Debug log
+[2022-11-07 03:59:10] [INFO ] Test for Info log
+[2022-11-07 18:20:17] [INFO ] Logger output will be appended to the file [E:\gitkakaoBankNumbering\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-07 18:20:17] [DEBUG] [NumberingServlet] Test for Debug log
+[2022-11-07 18:20:17] [INFO ] Test for Info log
+[2022-11-07 18:23:46] [INFO ] Logger output will be appended to the file [E:\gitkakaoBankNumbering\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-07 18:23:53] [DEBUG] [NumberingServlet] Test for Debug log
+[2022-11-07 18:23:53] [INFO ] Test for Info log
+[2022-11-07 19:06:43] [INFO ] Logger output will be appended to the file [E:\gitkakaoBankNumbering\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-07 19:06:43] [DEBUG] [NumberingServlet] Test for Debug log
+[2022-11-07 19:06:43] [INFO ] Test for Info log
+[2022-11-07 19:26:45] [INFO ] Logger output will be appended to the file [E:\gitkakaoBankNumbering\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-07 19:26:45] [DEBUG] [NumberingServlet] <=================doPost Call=================>
+[2022-11-07 19:27:57] [INFO ] Logger output will be appended to the file [E:\gitkakaoBankNumbering\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-07 19:27:57] [DEBUG] [NumberingServlet] <=================doPost Call=================>
+[2022-11-07 19:38:41] [INFO ] Logger output will be appended to the file [E:\gitkakaoBankNumbering\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-07 19:38:41] [DEBUG] [NumberingServlet] <=================doPost Call=================>

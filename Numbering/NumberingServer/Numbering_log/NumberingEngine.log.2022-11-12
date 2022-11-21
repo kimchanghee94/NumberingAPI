@@ -1,0 +1,151 @@
+[2022-11-12 20:58:32] [INFO ] Logger output will be appended to the file [E:\gitkakaoBankNumbering\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-12 20:58:32] [INFO ] <=================LoadBalancer Server Started=================>
+[2022-11-12 20:58:32] [DEBUG] [LoadBalancer] ********************http-nio-7070-exec-2********************
+[2022-11-12 20:58:32] [DEBUG] [LoadBalancer] request ContentType : text/plain
+[2022-11-12 20:58:32] [DEBUG] [LoadBalancer] Receive Data : guidseqid
+[2022-11-12 20:58:32] [INFO ] chk seq id num
+[2022-11-12 20:58:32] [INFO ] <=================SUB1 Server On=================>
+[2022-11-12 20:58:32] [DEBUG] [LoadBalancer] Time out set : 5s
+[2022-11-12 20:58:32] [INFO ] add seq id
+[2022-11-12 20:58:32] [DEBUG] [LoadBalancer] Response Document : []
+[2022-11-12 20:58:32] [INFO ] <=================LoadBalancer Server Started=================>
+[2022-11-12 20:58:32] [DEBUG] [LoadBalancer] ********************http-nio-7070-exec-3********************
+[2022-11-12 20:58:32] [DEBUG] [LoadBalancer] request ContentType : application/json
+[2022-11-12 20:58:32] [DEBUG] [LoadBalancer] Receive Data : {"guid":"","seqid":""}
+[2022-11-12 20:58:32] [INFO ] chk seq id num
+[2022-11-12 20:58:32] [INFO ] <=================SUB2 Server On=================>
+[2022-11-12 20:58:32] [DEBUG] [LoadBalancer] Time out set : 5s
+[2022-11-12 20:58:32] [INFO ] add seq id
+[2022-11-12 20:58:32] [DEBUG] [LoadBalancer] Response Document : []
+bering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-12 20:58:32] [INFO ] <=================Sub Engine Call=================>
+[2022-11-12 20:58:32] [INFO ] <=================Json Process=================>
+[2022-11-12 20:58:32] [INFO ] get Guid
+[2022-11-12 20:58:32] [DEBUG] [Guid] GUID Date : [20221112205832404]
+[2022-11-12 20:58:32] [DEBUG] [Guid] Context Path : [Sub2]
+[2022-11-12 20:58:32] [DEBUG] [Guid] doPost getProcessID Server
+[2022-11-12 21:03:16] [INFO ] Logger output will be appended to the file [E:\gitkakaoBankNumbering\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-12 21:03:16] [INFO ] <=================LoadBalancer Server Started=================>
+[2022-11-12 21:03:16] [DEBUG] [LoadBalancer] ********************http-nio-7070-exec-1********************
+[2022-11-12 21:03:16] [DEBUG] [LoadBalancer] request ContentType : text/plain
+[2022-11-12 21:03:16] [DEBUG] [LoadBalancer] Receive Data : guidseqid
+[2022-11-12 21:03:16] [INFO ] chk seq id num
+[2022-11-12 21:03:16] [INFO ] <=================SUB1 Server On=================>
+[2022-11-12 21:03:16] [DEBUG] [LoadBalancer] Time out set : 5s
+[2022-11-12 21:03:16] [INFO ] Logger output will be appended to the file [E:\gitkakaoBankNumbering\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-12 21:03:16] [INFO ] <=================Sub Engine Call=================>
+[2022-11-12 21:03:16] [INFO ] <=================Stream Process=================>
+[2022-11-12 21:03:16] [INFO ] get Guid
+[2022-11-12 21:03:16] [DEBUG] [Guid] GUID Date : [20221112210316418]
+[2022-11-12 21:03:16] [DEBUG] [Guid] Context Path : [Sub1]
+[2022-11-12 21:03:16] [DEBUG] [Guid] doPost getProcessID Server
+[2022-11-12 21:03:16] [INFO ] add seq id
+[2022-11-12 21:03:16] [DEBUG] [LoadBalancer] Response Document : []
+[2022-11-12 21:03:16] [INFO ] <=================LoadBalancer Server Started=================>
+[2022-11-12 21:03:16] [DEBUG] [LoadBalancer] ********************http-nio-7070-exec-3********************
+[2022-11-12 21:03:16] [DEBUG] [LoadBalancer] request ContentType : application/json
+[2022-11-12 21:03:16] [DEBUG] [LoadBalancer] Receive Data : {"guid":"","seqid":""}
+[2022-11-12 21:03:16] [INFO ] chk seq id num
+[2022-11-12 21:03:16] [INFO ] <=================SUB2 Server On=================>
+[2022-11-12 21:03:16] [DEBUG] [LoadBalancer] Time out set : 5s
+[2022-11-12 21:03:16] [INFO ] Logger output will be appended to the file [E:\gitkakaoBankNumbering\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-12 21:03:16] [INFO ] <=================Sub Engine Call=================>
+[2022-11-12 21:03:16] [INFO ] <=================Json Process=================>
+[2022-11-12 21:03:16] [INFO ] get Guid
+[2022-11-12 21:03:16] [DEBUG] [Guid] GUID Date : [20221112210316622]
+[2022-11-12 21:03:16] [DEBUG] [Guid] Context Path : [Sub2]
+[2022-11-12 21:03:16] [DEBUG] [Guid] doPost getProcessID Server
+[2022-11-12 21:03:16] [INFO ] add seq id
+[2022-11-12 21:03:16] [DEBUG] [LoadBalancer] Response Document : []
+[2022-11-12 21:03:27] [INFO ] <=================LoadBalancer Server Started=================>
+[2022-11-12 21:03:27] [DEBUG] [LoadBalancer] ********************http-nio-7070-exec-5********************
+[2022-11-12 21:03:27] [DEBUG] [LoadBalancer] request ContentType : text/plain
+[2022-11-12 21:03:27] [DEBUG] [LoadBalancer] Receive Data : guid&seqid
+[2022-11-12 21:03:27] [INFO ] chk seq id num
+[2022-11-12 21:03:27] [INFO ] <=================SUB3 Server On=================>
+[2022-11-12 21:03:27] [DEBUG] [LoadBalancer] Time out set : 5s
+[2022-11-12 21:03:27] [INFO ] Logger output will be appended to the file [E:\gitkakaoBankNumbering\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-12 21:03:27] [INFO ] <=================Sub Engine Call=================>
+[2022-11-12 21:03:27] [INFO ] <=================Stream Process=================>
+[2022-11-12 21:03:27] [INFO ] get Guid
+[2022-11-12 21:03:27] [DEBUG] [Guid] GUID Date : [20221112210327539]
+[2022-11-12 21:03:27] [DEBUG] [Guid] Context Path : [Sub3]
+[2022-11-12 21:03:27] [DEBUG] [Guid] doPost getProcessID Server
+[2022-11-12 21:03:27] [INFO ] add seq id
+[2022-11-12 21:03:27] [DEBUG] [LoadBalancer] Response Document : []
+[2022-11-12 21:15:52] [INFO ] Logger output will be appended to the file [E:\gitkakaoBankNumbering\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-12 21:15:52] [INFO ] <=================LoadBalancer Server Started=================>
+[2022-11-12 21:15:52] [DEBUG] [LoadBalancer] ********************http-nio-7070-exec-2********************
+[2022-11-12 21:15:52] [DEBUG] [LoadBalancer] request ContentType : text/plain
+[2022-11-12 21:15:52] [DEBUG] [LoadBalancer] Receive Data : guid&seqid
+[2022-11-12 21:15:52] [INFO ] check seq id
+[2022-11-12 21:15:52] [INFO ] <=================SUB1 Server On=================>
+[2022-11-12 21:15:52] [DEBUG] [LoadBalancer] Time out set : 5s
+[2022-11-12 21:15:52] [INFO ] Logger output will be appended to the file [E:\gitkakaoBankNumbering\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-12 21:15:52] [INFO ] <=================Sub Engine Call=================>
+[2022-11-12 21:15:52] [INFO ] <=================Stream Process=================>
+[2022-11-12 21:15:52] [INFO ] get Guid
+[2022-11-12 21:15:52] [DEBUG] [Guid] GUID Date : [20221112211552614]
+[2022-11-12 21:15:52] [DEBUG] [Guid] Context Path : [Sub1]
+[2022-11-12 21:15:52] [DEBUG] [Guid] doPost getProcessID Server
+[2022-11-12 21:15:52] [INFO ] add seq id
+[2022-11-12 21:15:52] [DEBUG] [LoadBalancer] Response Document : []
+[2022-11-12 21:21:38] [INFO ] Logger output will be appended to the file [E:\gitkakaoBankNumbering\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-12 21:21:38] [INFO ] <=================LoadBalancer Server Started=================>
+[2022-11-12 21:21:38] [DEBUG] [LoadBalancer] ********************http-nio-7070-exec-5********************
+[2022-11-12 21:21:38] [DEBUG] [LoadBalancer] request ContentType : text/plain
+[2022-11-12 21:21:38] [DEBUG] [LoadBalancer] Receive Data : guid&seqid
+[2022-11-12 21:21:38] [INFO ] check seq id
+[2022-11-12 21:21:38] [INFO ] <=================SUB1 Server On=================>
+[2022-11-12 21:21:38] [DEBUG] [LoadBalancer] Time out set : 5s
+[2022-11-12 21:21:38] [INFO ] Logger output will be appended to the file [E:\gitkakaoBankNumbering\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-12 21:21:38] [INFO ] <=================Sub Engine Call=================>
+[2022-11-12 21:21:38] [INFO ] <=================Stream Process=================>
+[2022-11-12 21:21:38] [INFO ] get Guid
+[2022-11-12 21:21:38] [DEBUG] [Guid] GUID Date : [20221112212138657]
+[2022-11-12 21:21:38] [DEBUG] [Guid] Context Path : [Sub1]
+[2022-11-12 21:21:38] [DEBUG] [Guid] doPost getProcessID Server
+[2022-11-12 21:21:38] [DEBUG] [Guid] process ID : [http-nio-9090-exec-5], hashCode : [-988896582]
+[2022-11-12 21:21:38] [DEBUG] [Guid] process ID : [P6582]
+[2022-11-12 21:21:38] [DEBUG] [Guid] doPost getServerName Server
+[2022-11-12 21:21:38] [DEBUG] [Guid] server name : [changhee], hashCode : [1432420243]
+[2022-11-12 21:21:38] [DEBUG] [Guid] server name : [S243]
+[2022-11-12 21:21:38] [INFO ] add seq id
+[2022-11-12 21:21:38] [DEBUG] [LoadBalancer] Seq ID : [1]
+[2022-11-12 21:21:38] [DEBUG] [LoadBalancer] Response Document : [guid=20221112212138657Sub1P6582S243&seqid=1]
+[2022-11-12 21:27:23] [INFO ] <=================LoadBalancer Server Started=================>
+[2022-11-12 21:27:23] [DEBUG] [LoadBalancer] ********************http-nio-7070-exec-8********************
+[2022-11-12 21:27:23] [DEBUG] [LoadBalancer] request ContentType : text/plain
+[2022-11-12 21:27:23] [DEBUG] [LoadBalancer] Receive Data : seqid
+[2022-11-12 21:27:23] [INFO ] check seq id
+[2022-11-12 21:27:23] [DEBUG] [LoadBalancer] Seq ID : [1]
+[2022-11-12 21:27:23] [DEBUG] [LoadBalancer] Response Document : [1]
+[2022-11-12 21:27:30] [INFO ] <=================LoadBalancer Server Started=================>
+[2022-11-12 21:27:30] [DEBUG] [LoadBalancer] ********************http-nio-7070-exec-9********************
+[2022-11-12 21:27:30] [DEBUG] [LoadBalancer] request ContentType : text/plain
+[2022-11-12 21:27:30] [DEBUG] [LoadBalancer] Receive Data : seqid&
+[2022-11-12 21:27:30] [INFO ] check seq id
+[2022-11-12 21:27:30] [DEBUG] [LoadBalancer] Seq ID : [1]
+[2022-11-12 21:27:30] [DEBUG] [LoadBalancer] Response Document : [seqid=1]
+[2022-11-12 21:27:47] [INFO ] <=================LoadBalancer Server Started=================>
+[2022-11-12 21:27:47] [DEBUG] [LoadBalancer] ********************http-nio-7070-exec-10********************
+[2022-11-12 21:27:47] [DEBUG] [LoadBalancer] request ContentType : text/plain
+[2022-11-12 21:27:47] [DEBUG] [LoadBalancer] Receive Data : guid&seqid
+[2022-11-12 21:27:47] [INFO ] check seq id
+[2022-11-12 21:27:47] [INFO ] <=================SUB2 Server On=================>
+[2022-11-12 21:27:47] [DEBUG] [LoadBalancer] Time out set : 5s
+[2022-11-12 21:27:47] [INFO ] Logger output will be appended to the file [E:\gitkakaoBankNumbering\kakaoBankNumbering\NumberingServer\Numbering_log\NumberingEngine.log]
+[2022-11-12 21:27:47] [INFO ] <=================Sub Engine Call=================>
+[2022-11-12 21:27:47] [INFO ] <=================Stream Process=================>
+[2022-11-12 21:27:47] [INFO ] get Guid
+[2022-11-12 21:27:47] [DEBUG] [Guid] GUID Date : [20221112212747292]
+[2022-11-12 21:27:47] [DEBUG] [Guid] Context Path : [Sub2]
+[2022-11-12 21:27:47] [DEBUG] [Guid] doPost getProcessID Server
+[2022-11-12 21:27:47] [DEBUG] [Guid] process ID : [http-nio-9090-exec-1], hashCode : [-988896586]
+[2022-11-12 21:27:47] [DEBUG] [Guid] process ID : [P6586]
+[2022-11-12 21:27:47] [DEBUG] [Guid] doPost getServerName Server
+[2022-11-12 21:27:47] [DEBUG] [Guid] server name : [changhee], hashCode : [1432420243]
+[2022-11-12 21:27:47] [DEBUG] [Guid] server name : [S243]
+[2022-11-12 21:27:47] [INFO ] add seq id
+[2022-11-12 21:27:47] [DEBUG] [LoadBalancer] Seq ID : [2]
+[2022-11-12 21:27:47] [DEBUG] [LoadBalancer] Response Document : [guid=20221112212747292Sub2P6586S243&seqid=2]

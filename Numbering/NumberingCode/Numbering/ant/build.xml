@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+
+<project name="Numbering" default="help" basedir=".">
+	<target name="help">
+		<echo message="Use ant -projecthelp for usage information." />
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- engine                                                                                                                                           -->
+	<!-- =================================================================== -->
+	<!-- engine init 단계 : 변수명 초기화 및 engine에 사용 될 클래스패스 설정 -->
+	<target name="init.engine">
+		<property name="engine-name" value="numberingEngine" />
+		<property name="build.dir.engine" value="../build/${engine-name}" />
+		<property name="dist.dir.engine" value="../dist/${engine-name}" />
+		<property name="engine-war-file-name" value="${engine-name}.war" />
+		<property name="engine-webapp.dir" value="../src/main/numberingEngine/WEB-INF" />
+		<property name="engine-web-xml-file" value="${engine-webapp.dir}/web.xml" />
+		<property name="engine-web-lib.dir" value="${engine-webapp.dir}/lib" />
+		<property name="engine-classes-directory" value="../build/${engine-name}" />
+		<property name="src.dir" value="../src/main/java" />
+		<property name="lib.dir" value="../lib" />
+		<property name="compile.debug" value="true" />
+		<property name="compile.deprecation" value="false" />
+		<property name="compile.optimize" value="true" />
+		<property name="compile.encoding" value="euc-kr" />
+		<path id="classpath.engine">
+			<pathelement location="${lib.dir}/log4j-1.2.8.jar" />
+			<pathelement location="${lib.dir}/servlet-api.jar" />
+			<pathelement location="${lib.dir}/json-simple-1.1.1.jar" />
+		</path>
+	</target>
+
+	<!-- engine compile 단계 : 엔진에 필요한 자바 파일들만 빌드 -->
+	<target name="compile.engine" depends="init.engine">
+		<mkdir dir="${build.dir.engine}" />
+		<javac srcdir="${src.dir}" destdir="${build.dir.engine}" deprecation="${compile.deprecation}" debug="${compile.debug}" optimize="${compile.optimize}" encoding="${compile.encoding}">
+			<include name="engine/service/*.java" />
+			<include name="engine/*.java" />
+			<include name="common/Property.java" />
+			<include name="common/logging/*.java" />
+			<classpath refid="classpath.engine" />
+		</javac>
+	</target>
+
+	<!-- engine clean 단계 : 엔진에 생성되었던 war파일과 class파일들 제거 -->
+	<target name="clean.engine" depends="init.engine">
+		<delete dir="${build.dir.engine}" />
+		<delete dir="${dist.dir.engine}" />
+		<delete dir="${engine-web-lib.dir}" />
+	</target>
+
+	<!-- distribute engine 단계 : war파일 배포 -->
+	<target name="dist.engine" depends="clean.engine, compile.engine">
+		<mkdir dir= "${engine-web-lib.dir}" />
+		<copy todir="${engine-web-lib.dir}" file="${lib.dir}/log4j-1.2.8.jar" />
+		<copy todir="${engine-web-lib.dir}" file="${lib.dir}/servlet-api.jar" />
+		<copy todir="${engine-web-lib.dir}" file="${lib.dir}/json-simple-1.1.1.jar" />
+		<mkdir dir="${dist.dir.engine}" />
+		<war warfile="${dist.dir.engine}/${engine-war-file-name}" webxml="${engine-web-xml-file}">
+			<classes dir="${engine-classes-directory}" />
+			<lib dir="${engine-web-lib.dir}" />
+			<manifest>
+				<attribute name="Built-By" value="ChangHee_Kim" />
+				<attribute name="Main-Class" value="engine.Version" />
+				<attribute name="Sealed" value="false" />
+			</manifest>
+		</war>
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- loadBalancer                                                                                                                                   -->
+	<!-- =================================================================== -->
+	<!-- loadBalancer init 단계 : 변수명 초기화 및 loadBalancer에 사용 될 클래스패스 설정 -->
+	<target name="init.loadB">
+		<property name="loadB-name" value="numberingLoadB" />
+		<property name="build.dir.loadB" value="../build/${loadB-name}" />
+		<property name="dist.dir.loadB" value="../dist/${loadB-name}" />
+		<property name="war-file-name-loadB" value="${loadB-name}.war" />
+		<property name="loadB-webapp.dir" value="../src/main/numberingLoadB/WEB-INF" />
+		<property name="loadB-web-xml-file" value="${loadB-webapp.dir}/web.xml" />
+		<property name="loadB-web-lib.dir" value="${loadB-webapp.dir}/lib" />
+		<property name="loadB-classes-directory" value="../build/${loadB-name}" />
+		<property name="src.dir" value="../src/main/java" />
+		<property name="lib.dir" value="../lib" />
+		<property name="compile.debug" value="true" />
+		<property name="compile.deprecation" value="false" />
+		<property name="compile.optimize" value="true" />
+		<property name="compile.encoding" value="euc-kr" />
+		<path id="classpath.loadB">
+			<pathelement location="${lib.dir}/log4j-1.2.8.jar" />
+			<pathelement location="${lib.dir}/servlet-api.jar" />
+			<pathelement location="${lib.dir}/json-simple-1.1.1.jar" />
+		</path>
+	</target>
+
+	<!-- loadBalancer compile 단계 : loadBalancer에 필요한 자바 파일들만 빌드 -->
+	<target name="compile.loadB" depends="init.loadB">
+		<mkdir dir="${build.dir.loadB}" />
+		<javac srcdir="${src.dir}" destdir="${build.dir.loadB}" deprecation="${compile.deprecation}" debug="${compile.debug}" optimize="${compile.optimize}" encoding="${compile.encoding}">
+			<include name="loadBalance/*.java" />
+			<include name="common/Property.java" />
+			<include name="common/logging/*.java" />
+			<classpath refid="classpath.loadB" />
+		</javac>
+	</target>
+
+	<!-- loadB clean 단계 : loadBalancer에 생성되었던 war파일과 class파일들 제거 -->
+	<target name="clean.loadB" depends="init.loadB">
+		<delete dir="${build.dir.loadB}" />
+		<delete dir="${dist.dir.loadB}" />
+		<delete dir="${loadB-web-lib.dir}" />
+	</target>
+
+	<!-- distribute loadB 단계 : war파일 배포 -->
+	<target name="dist.loadB" depends="clean.loadB, compile.loadB">
+		<mkdir dir= "${loadB-web-lib.dir}" />
+		<copy todir="${loadB-web-lib.dir}" file="${lib.dir}/log4j-1.2.8.jar" />
+		<copy todir="${loadB-web-lib.dir}" file="${lib.dir}/servlet-api.jar" />
+		<copy todir="${loadB-web-lib.dir}" file="${lib.dir}/json-simple-1.1.1.jar" />
+		<mkdir dir="${dist.dir.loadB}" />
+		<war warfile="${dist.dir.loadB}/${war-file-name-loadB}" webxml="${loadB-web-xml-file}">
+			<classes dir="${loadB-classes-directory}" />
+			<lib dir="${loadB-web-lib.dir}" />
+			<manifest>
+				<attribute name="Built-By" value="ChangHee_Kim" />
+				<attribute name="Main-Class" value="loadBalance.Version" />
+				<attribute name="Sealed" value="false" />
+			</manifest>
+		</war>
+	</target>
+</project>
